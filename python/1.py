@@ -1,16 +1,23 @@
-formatter = "%r %r %r %r"
+import sys
 
-print formatter % (1, 2, 3, 4)
-print formatter % ("one", "two", "three", "four")
-print formatter % (True, True, False, True)
-print formatter % (
-    "I had this thing.",
-    "That you could type up right",
-    "But it didn't sing",
-    "So I went to bed.")
-print formatter % (formatter, formatter, formatter, formatter)
-print formatter % (
-    "The next morning,",
-    "I woke up with a bright flash,",
-    "I noticed that what I've typed,",
-    "Had jumped into my bed")
+def print_two(*args):
+    arg1, arg2 = args
+    print "arg1: %r, arg2: %r" % (arg1, arg2)
+
+def print_two_again(arg1, arg2):
+    print "arg1: %s, arg2: %s" % (arg1, arg2)
+
+def print_one(arg):
+    print "arg: %s" % arg
+
+def print_():
+    print "I don't take any arguments"
+
+def sys():
+    print "this function works"
+
+print_two('HAHA', 'LOL')
+print_two_again("lolol", "rofl")
+print_one("bob")
+print_()
+sys()
