@@ -1,23 +1,12 @@
-import sys
+def cheese_and_crackers(cheese_count, boxes_of_crackers):
+    print "You have %d cheeses or %02X cheeses!" % (cheese_count, cheese_count)
+    print "You have %d boxes of crackers!" % boxes_of_crackers
+    print "Man that's enough for a party!"
+    print "Get a blanket.\n"
 
-def print_two(*args):
-    arg1, arg2 = args
-    print "arg1: %r, arg2: %r" % (arg1, arg2)
+print "We can just give the function numbers directly:"
+#cheese_and_crackers(int(raw_input("# of cheese: ")), int(raw_input("boxes of crackers: ")))
 
-def print_two_again(arg1, arg2):
-    print "arg1: %s, arg2: %s" % (arg1, arg2)
-
-def print_one(arg):
-    print "arg: %s" % arg
-
-def print_():
-    print "I don't take any arguments"
-
-def sys():
-    print "this function works"
-
-print_two('HAHA', 'LOL')
-print_two_again("lolol", "rofl")
-print_one("bob")
-print_()
-sys()
+cheese_count = 20
+boxes_of_crackers = 30
+cheese_and_crackers(cheese_count, boxes_of_crackers)
