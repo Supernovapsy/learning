@@ -1,0 +1,126 @@
+0
+ 1
+1
+2
+3
+ 5
+8
+13
+ 21
+34
+55
+ 89
+144
+233
+377
+610
+987
+1597
+2584
+4181
+10946
+ 6765
+ 17711
+28657
+46368
+75025
+196418
+         1858121393
+ function calls in 0.964 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      197    0.733    0.004    0.733317811    0.004
+ {method 'acquire' of 'thread.lock' objects}
+       39    0.115    0.003    0.790    0.020 threading.py:308(wait)
+       39    0.110    0.003    0.959    0.025 threading.py:726(start)
+       39    0.001    0.000    0.001    0.000 {thread.start_new_thread}
+       80    0.001    0.000    0.001    0.000 threading.py:259(__init__)
+        1    0.001    0.001    0.002    0.002 threading.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 heapq.py:31(<module>)
+        1    0.000    0.000    0.964    0.964 threads.py:2(<module>)
+        1    0.000    0.000    0.001    0.001514229
+ collections.py:1(<module>)
+       40    0.000    0.000    0.002    0.000 threading.py:656(__init__)
+       39    0.000    0.000    0.962    0.025 threads.py:5(threading_function)
+       39    0.000    0.000    0.848    0.022 threading.py:602(wait)
+       39    0.000    0.000    0.000    0.000 threading.py:627(_newname)
+       80    0.000    0.000    0.001    0.000 threading.py:241(Condition)
+       40    0.000    0.000    0.001    0.000 threading.py:560(__init__)
+      160    0.000    0.000    0.000    0.000 threading.py:58(__init__)
+       40    0.000    0.000    0.072    0.002 threading.py:299(_is_owned)
+       39    0.000    0.000    0.000    0.000 threading.py:709(_set_daemon)
+      120    0.000    0.000    0.000    0.000 {thread.allocate_lock}
+       40    0.000    0.000    0.001    0.000 threading.py:541(Event)
+       39    0.000    0.000    0.000    0.000 threading.py:293(_release_save)832040
+       39    0.000    0.000    0.000
+    0.000 threading.py:1152(currentThread)
+       39    0.000    0.000    0.000    0.000 threading.py:296(_acquire_restore)
+       79    0.000    0.000    0.000    0.000 {method 'release' of 'thread.lock' objects}
+        2    0.000    0.000    0.000    0.000 sre_parse.py:379(_parse)
+       28    0.000    0.000    0.000    0.000 sre_parse.py:182(__next)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:359(_compile_info)
+       79    0.000    0.000    0.000    0.000 threading.py:63(_note)
+      129    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+       39    0.000    0.000    0.000    0.000 threading.py:1008(daemon)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:32(_compile)
+        1    0.000    0.000    0.000    0.000 threading.py:640(Thread)
+        2    0.000    0.000    0.000    0.000 re.py:226(_compile)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:140(getwidth)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:493(compile)1346269
+
+       26    0.000    0.000    0.000    0.000 sre_parse.py:201(get)
+        1    0.000    0.000    0.000    0.000 collections.py:26(OrderedDict)
+       41    0.000    0.000    0.000    0.000 {thread.get_ident}
+        1    0.000    0.000    0.000    0.000 warnings.py:45(filterwarnings)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:677(parse)
+       39    0.000    0.000    0.000    0.000 threading.py:569(isSet)
+        1    0.000    0.000    0.000    0.000 keyword.py:11(<module>)
+       22    0.000    0.000    0.000    0.000 sre_parse.py:138(append)
+        1    0.000    0.000    0.000    0.000 threading.py:1090(__init__)
+       73    0.000    0.000    0.000    0.000 {len}
+        2    0.000    0.000    0.000    0.000 sre_compile.py:478(_code)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:301(_parse_sub)
+        1    0.000    0.000    0.000    0.000 threading.py:575(set)
+        1    0.000    0.000    0.000    0.000 threading.py:124(_RLock)
+       10    0.000    0.000    0.000    0.000 {isinstance}
+        4    0.000    0.000    0.000    0.000 sre_compile.py:472(isstring)
+        2    0.000    0.000    0.000    0.000 {method 'setter' of 'property' objects}
+       12    0.000    0.000    0.000    0.000 {_sre.getlower}
+        1    0.000    0.000    0.000    0.000 collections.py:390(Counter)
+        1    0.000    0.000    0.000    0.000 threading.py:372(notify)
+        2    0.000    0.000    0.000    0.000 {_sre.compile}
+        2    0.000    0.000    0.000    0.000 re.py:188(compile)
+       21    0.000    0.000    0.000    0.000 {ord}
+        1    0.000    0.000    0.000    0.000 threading.py:551(_Event)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:178(__init__)
+        1    0.000    0.000    0.000    0.000 threading.py:254(_Condition)
+        2    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 threading.py:1058(_Timer)
+        1    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 threading.py:399(notifyAll)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:67(__init__)
+        1    0.000    0.000    0.000    0.000 threading.py:56(_Verbose)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:195(match)
+        4    0.000    0.000    0.000    0.000 {min}
+        2    0.000    0.000    0.000    0.000 sre_parse.py:90(__init__)
+        2    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+ 2178309        1    0.000
+    0.000    0.000    0.000 threading.py:422(_Semaphore)
+        1    0.000    0.000    0.000    0.000 threading.py:1097(_set_daemon)
+        1    0.000    0.000    0.000    0.000 threading.py:1088(_MainThread)
+        1    0.000    0.000    0.000    0.000 threading.py:1128(_DummyThread)
+        1    0.000    0.000    0.000    0.000 {issubclass}
+        1    0.000    0.000    0.000    0.000 threading.py:789(_set_ident)
+        1    0.000    0.000    0.000    0.000 threading.py:514(_BoundedSemaphore)
+        2    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+3524578
+5702887
+9227465
+14930352
+24157817
+39088169
